@@ -29,7 +29,7 @@ The simulation was performed using Vivado XSim.
 The FIFO correctly stored and retrieved data (`44, 44, 42, 1d, 58`) in order. A 1-cycle latency is observed due to the synchronous nature of the memory.
 
 ### Cache Test
-Successfulfollowed by a "Cache Hit" and correct data retrieval (`aaaabbbb`).
+Successful "Cache Hit" and correct data retrieval (`aaaabbbb`).
 
 
 ## Tools Used
