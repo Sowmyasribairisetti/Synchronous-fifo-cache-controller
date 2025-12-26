@@ -1,0 +1,21 @@
+--- Starting FIFO Data Flow Test ---
+[FIFO WRITE] Time=65000 | Data In = 44
+[FIFO WRITE] Time=75000 | Data In = 44
+[FIFO WRITE] Time=85000 | Data In = 42
+[FIFO WRITE] Time=95000 | Data In = 1d
+[FIFO WRITE] Time=105000 | Data In = 58
+[FIFO READ]  Time=145000 | Data Out = 00
+[FIFO READ]  Time=155000 | Data Out = 44
+[FIFO READ]  Time=165000 | Data Out = 44
+[FIFO READ]  Time=175000 | Data Out = 42
+[FIFO READ]  Time=185000 | Data Out = 1d
+
+--- Starting Cache Data Flow Test ---
+[CACHE WRITE] Time=205000 | Addr=10 | Data=aaaabbbb
+[CACHE READ]  Time=217000 | Addr=10 | Data=00000000 | HIT=1
+>>> SUCCESS: Cache Hit Verified!
+[CACHE READ]  Time=237000 | Addr=10 | Data=aaaabbbb | HIT=1
+
+--- Verification Complete ---
+Functional Coverage: 75.00%
+$finish called at time : 337 ns
